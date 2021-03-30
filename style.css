@@ -1,0 +1,45 @@
+body{background-image:url("wp7702299.jpg");background-repeat: no-repeat; background-size: cover;}
+ul{
+   list-style-type:none;
+ 
+   overflow:hidden;
+   font-size:30px;
+  }  
+li{
+   float:left;
+  }
+li a{display:block;
+     color:white;
+     text-align:center;
+     padding:16px;
+     text-decoration:none;
+     text-decoration: underline;
+
+     }
+p:hover,li a:hover{ background-color:rgb(0, 0, 77);}
+h1{font-size:600%;
+    text-align: center;
+   color:White;
+   word-spacing:20px;}
+p{font-size:200%;
+    color:white;
+    text-align:center;}
+.icons{hight:100vh;
+       display:flex;
+       justify-content:center;
+       aling-items:center;
+       }
+.icons a{height:100px;
+         width:100px;
+         background-color:#f5f6fa;
+         border-radius:50px;
+         text-align:center;
+         margin:100px;
+         box-shadow:1px 4px 2px 2px;
+         line-height:120px;}
+.icons a i{transition:all 0.3s linear;}
+.icons a:hover i{transform:scale(3);}
+.fa-instagram{color:#e84393;}
+.fa-twitter{color:#0097e6;}
+.fa-facebook{color:#4267B2;}
+
