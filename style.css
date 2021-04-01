@@ -1,9 +1,13 @@
-body{background-image:url("wp7702299.jpg");background-repeat: no-repeat; background-size: cover;}
+body{ background-image:url("wp2486429-black-hd-wallpapers.jpg");
+   background-repeat: no-repeat;
+   background-size:1550px 1100px;background-attachment:"local";}
+
+         
+
 ul{
    list-style-type:none;
- 
    overflow:hidden;
-   font-size:30px;
+   font-size:20px;
   }  
 li{
    float:left;
@@ -12,18 +16,19 @@ li a{display:block;
      color:white;
      text-align:center;
      padding:16px;
-     text-decoration:none;
-     text-decoration: underline;
+     text-decoration:underline;
 
      }
-p:hover,li a:hover{ background-color:rgb(0, 0, 77);}
-h1{font-size:600%;
+.heading p:hover,li a:hover{ background-color:rgba(255,105,180);transform:scale(1.2);}
+     
+.heading h1{font-size:600%;
     text-align: center;
    color:White;
    word-spacing:20px;}
-p{font-size:200%;
+.heading p{font-size:200%;
     color:white;
     text-align:center;}
+
 .icons{hight:100vh;
        display:flex;
        justify-content:center;
@@ -31,15 +36,76 @@ p{font-size:200%;
        }
 .icons a{height:100px;
          width:100px;
-         background-color:#f5f6fa;
+         background-color:rgba(244, 208, 63, 1);
          border-radius:50px;
          text-align:center;
          margin:100px;
-         box-shadow:1px 4px 2px 2px;
+         box-shadow:1px 4px 2px 2px white;
          line-height:120px;}
 .icons a i{transition:all 0.3s linear;}
 .icons a:hover i{transform:scale(3);}
 .fa-instagram{color:#e84393;}
 .fa-twitter{color:#0097e6;}
 .fa-facebook{color:#4267B2;}
+.fa-github{color:#333;}
+
+.btn {background-color:transparent;
+     text-align: center; 
+     font-size:30px; 
+     border: 4px solid rgba(244, 208, 63, 1);  
+     width: 300px;  
+     height: 50px;  
+     padding: 5px;
+     }
+.btn a{color:white;}  
+#container{text-align:center;}
+.btn:hover{background-color:rgba(255,105,180);}
+#about h3,h2{text-align:center;}
+#about h3{color:rgba(244, 208, 63, 1);}
+#about h2{color:white;}
+#about pre{color:dimgrey;position:relative;left:400px;font-size:200%;font-family: 'Alice';font-size: 28px;}
+#about img{height:200px;
+         background-color:rgba(244, 208, 63, 1);
+         border-radius:100px;
+         position:relative;
+         left:300px;
+         box-shadow:1px 4px 2px 2px white;
+        }
+
+
+.wrap {
+  width: 100%;
+  overflow: auo;
+  
+}
+
+.fleft {
+  position:relative;
+  left:300px;
+  float: left;
+  width: 30%;
+  background:powderblue;
+  height: 600px;
+  text-align:left;
+}
+
+.fright {
+  position:relative;
+  right:300px;
+  float: right;
+  background: pink;
+  height: 600px;
+  width: 30%;
+}
+
+.wrap p{color:black;
+        font-size:130%;
+        font-family:alice;
+        position:relative;
+        left:10px;
+        color:deeppink ;}
+
+.wrap h3{position:relative;
+         left:10px;
+         text-decoration:underline;}
 
