@@ -6,16 +6,16 @@ body{ background-image:url("abc.jpg");
    background-size:1550px 1050px;background-attachment:"local";
    }
 
-         
+
 
 ul{
    list-style-type:none;
    overflow:hidden;
    font-size:20px;
-  }  
+  }
 li{
    float:left;
-   
+
   }
 li a{display:block;
      color:white;
@@ -25,7 +25,7 @@ li a{display:block;
 
      }
 .heading p:hover,li a:hover{ background-color:rgba(255,105,180);transform:scale(1.2);}
-     
+
 .heading h1{font-size:430%;
     text-align: center;
    color:White;
@@ -57,14 +57,14 @@ li a{display:block;
 .fa-github{color:#333;}
 
 .btn {background-color:transparent;
-     text-align: center; 
-     font-size:30px; 
-     border: 4px solid rgba(244, 208, 63, 1);  
-     width: 300px;  
-     height: 50px;  
+     text-align: center;
+     font-size:30px;
+     border: 4px solid rgba(244, 208, 63, 1);
+     width: 300px;
+     height: 50px;
      padding: 5px;
      }
-.btn a{color:white;}  
+.btn a{color:white;}
 #container{text-align:center;}
 .btn:hover{background-color:rgba(255,105,180);}
 #about h2,h1{text-align:center;}
@@ -118,54 +118,24 @@ li a{display:block;
          text-decoration:underline;}
 
 
-.section1{background-image:url("wp3516829.jpg");
+#section1{background-image:url("wp3516829.jpg");
           background-size:cover;
           height:1000px;
-         
+
           background-position:center;
           position:relative;
           text-align:center;
           }
-.section1 h2{color:rgba(244, 208, 63, 1);text-align:center;}
-.section1 h1{color:white;text-align:center;}
-.section1 pre{color:#666666;text-align:center;font-family: 'Alice';font-size: 28px;}
+#section1 h2{color:rgba(244, 208, 63, 1);text-align:center;}
+#section1 h1{color:white;text-align:center;}
+#section1 pre{color:#666666;text-align:center;font-family: 'Alice';font-size: 28px;}
 
 
-
-.education{ width: 100%;
+#section1 .education{ width: 100%;
   overflow: auo;
   background-color:transparent;}
 
-.education h1{color:rgba(244, 208, 63, 1);text-align:center;}
+#section1 .education h1{color:rgba(244, 208, 63, 1);text-align:center;text-decoration:underline;}
 
-.l-education {position:relative;
-                left:100px;
-  		float: left;
-  		width: 30%;
-  		height: 600px;
-                
-  		}
-
-
-.l-education h1{color:white;} 
-.l-education h3{color:white;} 
-
-.r-education{ position:relative;
-              right:550px;
-              float: right;
-              border-left:2px solid blue;
-              
-              height: 600px;
-              width: 30%; }
-.r-education h2{color:white;}
-.r-education pre{color:#666666;font-size:20px;margin:5%;}
-
-.fa-circle {color:rgba(244, 208, 63, 1);
-               position:relative;
-               left:187px;
-               bottom:70px;}
-
-.fa-graduation-cap {color:black;
-               position:relative;
-               left:153px;
-               bottom:80px;}
+#section1 .education .bachelor_degree{height:300px;background-color:red;margin:100px;}
+#section1 .education .xii{height:300px;background-color:red;margin:100px;}
